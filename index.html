@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Equipe RastreiaJá">
+  <meta name="description" content="Página de acompanhamento de entregas da RastreiaJá.">
+  <meta name="keywords" content="rastreio, entrega, logística, encomenda">
+  <title>RastreiaJá - Rastreamento de Encomendas</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="pagina">
+    <header>
+      <h1>RastreiaJá</h1>
+      <p>Rastreie sua encomenda em tempo real</p>
+    </header>
+
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Nova consulta</a>
+      <a href="#ajuda">Ajuda</a>
+    </nav>
+
+    <main>
+      <!-- Os dados abaixo reproduzem o exemplo de rastreio do enunciado. -->
+      <section id="rastreio" aria-labelledby="codigo-rastreio">
+        <h2 id="codigo-rastreio">Código de Rastreio: BR123456789</h2>
+
+        <!-- Este artigo representa a única atualização fornecida no exemplo. -->
+        <article class="evento">
+          <h3>Status</h3>
+          <p><span class="status">Em trânsito</span></p>
+          <p>Última atualização: <time datetime="2026-09-11T14:32:00-03:00">11/09/2026 às 14:32</time></p>
+
+          <h3>Localização</h3>
+          <p>São Paulo - SP</p>
+
+          <h3>Previsão de entrega</h3>
+          <p><time datetime="2026-09-13">13/09/2026</time></p>
+        </article>
+      </section>
+
+      <!-- A ajuda fica na mesma página para manter a navegação simples. -->
+      <section id="ajuda" aria-labelledby="titulo-ajuda">
+        <h2 id="titulo-ajuda">Ajuda</h2>
+        <p>Guarde o código de rastreio e entre em contato com a transportadora se houver alguma divergência nas informações.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 RastreiaJá - Todos os direitos reservados</p>
+    </footer>
+  </div>
+</body>
+</html>
